@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "rules": {
+    "no-use-before-define": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "printWidth": 80,
+        "trailingComma": "es5"
+      }
+    ],
+    "comma-dangle": "error"
+  }
+}
